@@ -174,6 +174,9 @@ window.addEventListener("message", async e => {
     })
 
     // Variaveis para os botões.
+    let update_iconPath = "assets/icon/update_icon.svg";
+    let update_id = "update-video-button";
+    let update_tooltipText = "idk";
 
     let rewind_iconPath = "assets/icon/replay-10s.svg";
     let rewind_id = "rewind-video-button";
