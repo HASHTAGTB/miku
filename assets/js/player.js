@@ -252,8 +252,7 @@ window.addEventListener("message", async e => {
         // jwplayer().setFullscreen(localStorage.getItem("next_up_fullscreen")); <- problemas com fullscreen automatico
         jwplayer().play();
       }
-
-      document.body.querySelector(".loading_container").style.display = "none";
+      
     });
 
     jwplayer().on('viewable', e => {
