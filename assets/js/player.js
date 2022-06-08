@@ -176,15 +176,15 @@ window.addEventListener("message", async e => {
     // Variaveis para os botões.
     let update_iconPath = "assets/icon/update_icon.svg";
     let update_id = "update-video-button";
-    let update_tooltipText = "Atualização Disponível";
+    let update_tooltipText = "idk";
 
     let rewind_iconPath = "assets/icon/replay-10s.svg";
     let rewind_id = "rewind-video-button";
-    let rewind_tooltipText = "Voltar 10s";
+    let rewind_tooltipText = "-10s";
 
     let forward_iconPath = "assets/icon/forward-30s.svg";
     let forward_id = "forward-video-button";
-    let forward_tooltipText = "Avançar 30s";
+    let forward_tooltipText = "+30s";
 
     let download_iconPath = "assets/icon/download_icon.svg";
     let download_id = "download-video-button";
